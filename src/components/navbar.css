@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    background-color: #2F302C;
+    height: 80px;
+    align-items: center;
+  }
+  
+  .left-part {
+    width: 20%; 
+    text-align: center;
+  }
+  
+  .right-part {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .right-part ul {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+  }
+  
+  .right-part li {
+    margin: 0 10px; 
+  }
+  
+  .company-name {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+  }
+
+  .right-part li {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    padding-right: 20px;
+    text-transform: uppercase;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-right: 10px;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+  }
+  
+    .search-bar input[type="text"] {
+        padding: 8px;
+        border: none; /* Remove all borders */
+        border-bottom: 1px solid #fff; /* Add bottom border */
+        background-color: transparent;
+        color: #fff;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        outline: none;
+    }
+    
+  
+  .search-bar input[type="text"]::placeholder {
+    color: #ccc; /* Adjust placeholder color as needed */
+  }
